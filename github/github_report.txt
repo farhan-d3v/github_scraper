@@ -1,0 +1,24 @@
+GITHUB REPOSITORY REPORT
+========================
+
+Repository: redis
+Owner: redis
+Description: For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. - redis/redis
+Stars: 76.6k
+Forks: 24.8k
+------------------------
+
+Repository: pandas
+Owner: pandas-dev
+Description: Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more - pandas-dev/pandas
+Stars: 49.9k
+Forks: 20.5k
+------------------------
+
+Repository: selenium
+Owner: seleniumhq
+Description: A browser automation framework and ecosystem. Contribute to SeleniumHQ/selenium development by creating an account on GitHub.
+Stars: 34.5k
+Forks: 8.7k
+------------------------
+

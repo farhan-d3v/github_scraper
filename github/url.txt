@@ -1,0 +1,10 @@
+https://github.com/psf/requests
+https://github.com/django/django
+https://github.com/seleniumhq/selenium
+https://github.com/pallets/flask
+https://github.com/fastapi/fastapi
+https://github.com/numpy/numpy
+https://github.com/pandas-dev/pandas
+https://github.com/microsoft/vscode
+https://github.com/tensorflow/tensorflow
+https://github.com/redis/redis
