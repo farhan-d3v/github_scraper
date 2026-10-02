@@ -1,0 +1,183 @@
+# GitHub Repository Scraper
+
+A Python-based web scraping project built with **Selenium** to extract useful information from GitHub repositories.
+
+The project demonstrates how web pages can be accessed, analyzed, and scraped programmatically to collect specific information required by the user.
+
+## Project Overview
+
+The GitHub Repository Scraper takes a GitHub repository URL as input and extracts useful repository information.
+
+Currently, the scraper can collect information such as:
+
+* Repository owner
+* Repository name
+* Repository description
+* Number of stars
+* Number of forks
+* Programming language information
+
+### Example
+
+Input:
+
+```text
+https://github.com/psf/requests
+```
+
+The program can extract information such as:
+
+```text
+Owner       : psf
+Repository  : requests
+Description : A simple HTTP library for Python
+Stars       : 54.4k
+Forks       : 11.4k
+Language    : Python
+```
+
+##  Purpose of the Project
+
+The main purpose of this project is to understand how **web scraping and browser automation** can be used to collect specific information from websites.
+
+Although this project focuses on GitHub repositories, the same concept can be adapted to other websites.
+
+Depending on the website structure and the information required, the scraper can be modified to:
+
+* Locate specific web elements
+* Extract required information
+* Process the collected data
+* Display the extracted information
+
+This makes the project a basic foundation for developing more customized web scraping tools.
+
+##  Technologies Used
+
+* **Python**
+* **Selenium**
+* **Google Chrome**
+* **Chrome WebDriver**
+* **XPath / Web Element Locators**
+
+##  How It Works
+
+The scraper follows these basic steps:
+
+```text
+User enters URL
+       ↓
+Selenium opens the website
+       ↓
+Web page loads
+       ↓
+Selenium locates required elements
+       ↓
+Information is extracted
+       ↓
+Extracted data is displayed
+```
+
+##  Features
+
+* Accepts a GitHub repository URL
+* Opens the website automatically using Selenium
+* Extracts repository information
+* Uses Selenium locators to find web elements
+* Can be modified to extract additional information
+* Can be adapted for different websites
+
+##  Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/github-repository-scraper.git
+```
+
+### 2. Open the project
+
+```bash
+cd github-repository-scraper
+```
+
+### 3. Install the required Python package
+
+```bash
+pip install selenium
+```
+
+If you have a `requirements.txt` file, you can instead use:
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶ How to Run
+
+Run the Python program:
+
+```bash
+python github_scraper.py
+```
+
+The program will ask for a GitHub repository URL.
+
+Example:
+
+```text
+Enter GitHub repository URL:
+https://github.com/psf/requests
+```
+
+The scraper will then open the repository and extract the available information.
+
+##  Web Scraping Concept
+
+This project demonstrates an important concept in web scraping:
+
+> Instead of collecting all information from a website, a scraper can be designed to identify and extract only the information that is required.
+
+For example, if a website contains hundreds of elements, the program can use locators such as XPath to target specific elements and retrieve only the required data.
+
+This approach can be applied to many types of websites and use cases.
+
+##  What I Learned
+
+Through this project, I practiced:
+
+* Python programming
+* Selenium WebDriver
+* Browser automation
+* Web element identification
+* XPath
+* Extracting data from web pages
+* Handling dynamically loaded web content
+* Structuring a practical Python project
+
+##  Future Improvements
+
+Possible improvements include:
+
+* Scraping multiple repositories automatically
+* Exporting results to CSV
+* Adding more repository information
+* Adding error handling for invalid URLs
+* Supporting multiple websites
+* Creating a simple user interface
+* Storing scraped data in a database
+
+##  Disclaimer
+
+This project is created for **educational and development purposes**.
+
+When scraping websites, always respect the website's terms of service, robots.txt where applicable, rate limits, and applicable laws.
+
+##  Author
+
+**Mohammed Farhan M I**
+
+GitHub: `farhan-d3v`
+
+---
+
+ If you find this project useful, feel free to explore or contribute to it.
